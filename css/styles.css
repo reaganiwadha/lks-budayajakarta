@@ -1,0 +1,147 @@
+.navbar{
+  display:flex;
+  position:sticky;
+  background-color: rgb(240,49,49);
+  font-weight: bold;
+  color: white;
+  justify-content: flex-start;
+  order: 1,flex-end;
+}
+
+.content{
+  padding: 1em;
+}
+
+.ayo-belajar{
+  background-color: rgba(75,193,250);
+  display:flex;
+  padding: 2em;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.jayaraya{
+  width: 3em;
+  height: 1em;
+}
+
+.sidebar{
+  position: sticky;
+  display: flex;
+  flex-wrap: wrap;
+  padding:1em;
+  background-color:rgb(244,244,244);
+  height: 100%;
+  width: auto;
+}
+
+.sidebar > a{
+  padding:0.3em;
+}
+
+.judul{
+  color:rgba(252,235,20);
+  text-shadow: 2px 2px #000;
+  font-style: italic;
+}
+
+.footer{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  background-color:rgb(27,27,27);
+  color:#fff;
+  justify-content: center;
+}
+
+.content-1-column{
+  display:flex;
+  flex-direction:column;
+}
+
+.ibukota{
+  padding: 1em;
+  margin: 0;
+  padding-bottom: 0;
+
+}
+.ibukota-p{
+  padding: 2em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.login-text{
+  margin-left: 1em;
+}
+
+.login-dialog{
+  margin-left: 2em;
+  border-radius: 10px;
+}
+
+.quiz>input{
+  margin-left:2em;
+}
+
+.duaemkekanan{
+  margin:2em;
+}
+
+.submit-btn{
+  border: none;
+  width:5em;
+  height: 2em;
+  border-radius: 5px;
+  color: white;
+  cursor:pointer;
+  background-color:rgb(40,113,232);
+}
+
+.content-1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg{
+  position: absolute;
+  position: sticky;
+  z-index: -200;
+}
+
+a{
+  text-decoration: none;
+}
+
+.navbar > a{
+  margin: 1em;
+}
+
+.loginbtn{
+  flex
+}
+
+body, html{
+  margin:0;
+  font-family: Arial, Helvetica;
+}
+
+@media screen and (max-width:700px) {
+/*di handphone */
+
+  .content-1{
+    flex-wrap: wrap;
+  }
+
+  .bg{
+    width: 100%;
+    height: auto;
+  }
+
+  .diwrap{
+    flex-wrap:wrap;
+  }
+
+}

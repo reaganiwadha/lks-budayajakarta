@@ -1,0 +1,3 @@
+-Jangan pake lorem ipsum sama sekali
+-Buat situs tentang budaya jakarta dan user bisa meninggalkan pesan pesan
+-Semacam facebook tapi khusus untuk budaya
